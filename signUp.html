@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="signUp.css">
+  <style>
+    #footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/ 
+        height: 40px;
+        background: grey;
+    }
+</style>
+</head>
+
+<ul>
+  <li><a href="signUp.html">Sign Up</a></li>
+  <li><a href="#news">Volunteering Responsibilities</a></li>
+  <li><a href="#news">Schedule</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#news">Profile</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+<img src="Images/armInArmLogo.jpg" alt="Arm In Arm Logo" class="center" style="width:600px;height:200px;">
+
+  <form action="action_page.php" style="border:0px solid #ccc">
+    <div class="sign-up-form">
+    <div class="container">
+      <h2>Start Volunteering at Arm In Arm Today!</h2>
+      <hr>
+      
+      <div class="input-entries">
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+      </div>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <div class="clearfix">
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+      <a href="logIn.html">Already have an account?</a>
+    </div>
+    </div>
+  </form>
+  <p>Designed by members of the Output Subteam of the Princeton University Entrepreneurship Club.</p>
+</html>
